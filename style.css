@@ -1,16 +1,27 @@
-body{
-    background-image: url(img/FreeImagesUnsplash/alvin-engler-bIhpiQA009k-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+body {
+  background-image: url(img/FreeImagesUnsplash/alvin-engler-bIhpiQA009k-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .table {
-    border-radius: 30px; 
-    overflow: hidden; 
-  }
+  border-radius: 30px;
+  overflow: hidden;
+}
 
-  .card{
-    border-radius: 15px;
-    overflow:hidden;
-  }
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+a :hover {
+  color: black;
+  background-color: yellow;
+
+}
+
+.j0onl :hover {
+  color: black;
+  background-color: white;
+}
