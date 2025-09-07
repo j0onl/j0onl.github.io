@@ -13,6 +13,19 @@ body {
 .card {
   border-radius: 15px;
   overflow: hidden;
+
+}
+
+.card img {
+  height: 200px;
+  /* altura fixa para todas */
+  object-fit: cover;
+  /* mantém proporção e corta excesso */
+}
+
+#dataAnalysisImg {
+  height: 400px;
+  object-fit: cover;
 }
 
 a :hover {
